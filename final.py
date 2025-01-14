@@ -9,14 +9,14 @@ status = input('Введите статус заметки: ')
 created_date = input('Напишите дату создания заметки (в формате дд-мм-гггг): ')
 issue_date = input('Напишите дату окончания заметки (в формате дд-мм-гггг): ')
 
-#Список ввдеенных данных от пользвателя
+#Список введенных данных от пользователя
 note = [
-username,
-title_list, # список для заголовков
-content,
-status,
-created_date,
-issue_date
+    username,
+    title_list,  # список для заголовков
+    content,
+    status,
+    created_date,
+    issue_date
 ]
 
 #Вывод вводных данных пользователя
